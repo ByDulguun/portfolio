@@ -1,10 +1,8 @@
-import {
-  Available,
-  Figmaicon,
-  Giticon,
-  Location,
-  Twittericon,
-} from "@/asests/Icons";
+import { Available } from "@/assets/Icons/Available";
+import { Figmaicon } from "@/assets/Icons/Figmaicon";
+import { Giticon } from "@/assets/Icons/Giticon";
+import { Twittericon } from "@/assets/Icons/Twittericon";
+
 
 export const Section = ({ toggleDarkMode, isDark }) => {
   return (

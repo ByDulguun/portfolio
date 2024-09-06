@@ -1,4 +1,4 @@
-import { C } from "@/asests/Icons/C";
+import { C } from "@/assets/Icons/C";
 
 export const Footer = ({ toggleDarkMode, isDark }) => {
   return (

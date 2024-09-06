@@ -1,20 +1,19 @@
-import {
-  Cypress,
-  Express,
-  Figma,
-  Git,
-  Javascript,
-  Mongo,
-  Nest,
-  Next,
-  Node,
-  React,
-  Sass,
-  Socked,
-  Storybook,
-  Tailwindcss,
-  Typescript,
-} from "@/asests/Icons";
+import { Cypress } from "@/assets/Icons/Cypress";
+import { Express } from "@/assets/Icons/Express";
+import { Figma } from "@/assets/Icons/Figma";
+import { Git } from "@/assets/Icons/Git";
+import { Giticon } from "@/assets/Icons/Giticon";
+import { Javascript } from "@/assets/Icons/Javascript";
+import { Mongo } from "@/assets/Icons/Mongo";
+import { Nest } from "@/assets/Icons/Nest";
+import { Node } from "@/assets/Icons/Node";
+import { React } from "@/assets/Icons/React";
+import { Sass } from "@/assets/Icons/Sass";
+import { Socked } from "@/assets/Icons/Socked";
+import { Storybook } from "@/assets/Icons/Storybook";
+import { Tailwindcss } from "@/assets/Icons/Tailwindcss";
+import { Typescript } from "@/assets/Icons/Typescript";
+import { Next } from "react-bootstrap/esm/PageItem";
 
 export const Icon = ({ isDark }) => {
   return (
@@ -80,7 +79,7 @@ export const Icon = ({ isDark }) => {
         <p className="text-gray-600 dark:text-[#D1D5DB] mr-24">Storybook</p>
       </div>
       <div>
-        <Git />
+        <Giticon />
         <p className="text-gray-600 dark:text-[#D1D5DB] mr-24 ">Git</p>
       </div>
     </div>

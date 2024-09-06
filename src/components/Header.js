@@ -1,5 +1,5 @@
-import { Moon } from "@/asests/Icons/Moon";
-import { Sun } from "@/asests/Icons/Sun";
+import { Moon } from "@/assets/Icons/Moon";
+import { Sun } from "@/assets/Icons/Sun";
 
 export const Header = ({ toggleDarkMode, isDark }) => {
   return (

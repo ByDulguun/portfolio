@@ -1,4 +1,4 @@
-import { Upwork } from "@/asests/Icons/Upwork";
+import { Upwork } from "@/assets/Icons/Upwork";
 
 export const Experience = ({ toggleDarkMode }) => {
   return (

@@ -11,7 +11,6 @@ import {
   Work,
 } from "@/components";
 
-import { Container } from "postcss";
 import { useState } from "react";
 
 export default function Home() {

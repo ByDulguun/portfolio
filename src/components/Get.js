@@ -1,11 +1,9 @@
-import {
-  Call,
-  Copy,
-  Figmaicon,
-  Giticon,
-  Message,
-  Twittericon,
-} from "@/asests/Icons";
+import { Call } from "@/assets/Icons/Call";
+import { Copy } from "@/assets/Icons/Copy";
+import { Figmaicon } from "@/assets/Icons/Figmaicon";
+import { Giticon } from "@/assets/Icons/Giticon";
+import { Message } from "@/assets/Icons/Message";
+import { Twittericon } from "@/assets/Icons/Twittericon";
 
 export const Get = ({ toggleDarkMode, isDark }) => {
   return (
@@ -29,9 +27,9 @@ export const Get = ({ toggleDarkMode, isDark }) => {
         <h1 className="text-gray-900 dark:text-[#F9FAFB] text-4xl font-semibold">
           tom@pinecone.mn
         </h1>
-          <button>
-            <Copy onclick="myFunction()" color={isDark ? "#D1D5DB" : "#4B5563"} />
-          </button>
+        <button>
+          <Copy onclick="myFunction()" color={isDark ? "#D1D5DB" : "#4B5563"} />
+        </button>
       </div>
       <div className="flex gap-2 justify-center">
         <button>
