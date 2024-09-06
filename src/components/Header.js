@@ -3,8 +3,8 @@ import { Sun } from "@/asests/Icons/Sun";
 
 export const Header = ({ toggleDarkMode, isDark }) => {
   return (
-    <div className=" sm:flex justify-around w-screen h-full  py-4 bg-[#fff] dark:bg-[#000]">
-      <div className=" flex font-normal text-3xl text-gray-900 dark:text-gray-300 2xl justify-between mx-2  ">
+    <div className=" sm:flex justify-around w-screen h-full py-4 bg-[#fff] dark:bg-gray-900">
+      <div className=" flex font-normal text-3xl text-gray-900 dark:text-gray-300 2xl justify-between  mx-4  ">
         <div className="  ">
           <h1>Tom</h1>
         </div>

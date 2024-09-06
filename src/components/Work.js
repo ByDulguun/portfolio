@@ -15,7 +15,8 @@ export const Work = ({ toggleDarkMode, isDark }) => {
       <div className="py-0 md:px-96 flex  md:justify-center mt-12  ">
         <div className="bg-gray-50 dark:bg-[#374151] flex-1 rounded-l-lg shadow-xl">
           <img
-            src="https://s3-alpha-sig.figma.com/img/f7f4/1fb2/9978d6752a84190b8a3ff63dfa2ce73a?Expires=1720396800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pB9QbQhOe19LxC9mW6SIdUMyTrCFpcqZDrAKGXQMDoX9wRMXpm42eFTGeNkd0siv8TP6tIOfMCkihtlBaynm1hs69g-0XbMdQD1I8Y0Ea5X4ocgnkSzMiMusQlUJCWNXyU5hTSEHG~MuxBSE3MBRh8da7m8iZV93WcGEwUxRDqneE6rl5plLbAN2nbqvZl0O-LL-PYSTjHWTwEj8aOZ1HhVj9gy25BvBeksoM5ovfrTtlPNZ-U5LwnKbVG9qu5tUcVkamGc33wt8msSPWVmisWQzcNN~YTi0Trw3Cu40ZMgJ0AlAarfqQhrEWL9yHCVGQ3-IMpCmAUVcjpW2Zx75Qg__"
+            src="/unelgee.jpg
+            "
             className="w-fit h-fit py-24 md:px-28 "
           />
         </div>
@@ -55,7 +56,7 @@ export const Work = ({ toggleDarkMode, isDark }) => {
         </div>
         <div className="bg-gray-50 dark:bg-[#374151] flex-1 rounded-l-lg shadow-xl pl-14 rounded-xl">
           <img
-            src="https://s3-alpha-sig.figma.com/img/600f/0a53/ec233eeec30acb72a718cce9a3c1c7dc?Expires=1720396800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UPMgXdDGXjBK3RST9PZkcBq-l3tO8SRkOGyoT0ZhBGZ~b5vrPKNxtVHVLqd0DnxL7f5t-lOhW3u17lInh9i1L6NyoTwANkTeyM4XqmfSxyz9oGDGiwbx23E9z8-1ktEGzt~mvWAeewaMITBXwnvKVLPAYBJNRG1J0XJaGItnTdt5btuHTRDbJxG3tTGBmeR6Hux~O5l4oVMeBZAspKBMDK9ykpGXHvx2kITdAhwTLqf3LP6iQWrzb3t~1hQ8CZ07ImEz1z3sCPoykbNgW8RAbRC0OKGY-of4GI6e5SxBZudwXEma~dUZp82TD7-JIb9SwZMV-KDZPJGX7mJANrD5Gg__"
+            src="/task.jpg"
             className="w-fit h-fit py-24 px-28 rounded-xl "
           />
         </div>

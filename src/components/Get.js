@@ -22,18 +22,28 @@ export const Get = ({ toggleDarkMode, isDark }) => {
         </p>
       </div>
       <div className="flex gap-2 justify-center ">
-        <Message color={isDark ? "#D1D5DB" : "#4B5563"} />
+        <button>
+          <Message color={isDark ? "#D1D5DB" : "#4B5563"} />
+        </button>
+
         <h1 className="text-gray-900 dark:text-[#F9FAFB] text-4xl font-semibold">
           tom@pinecone.mn
         </h1>
-        <Copy color={isDark ? "#D1D5DB" : "#4B5563"} />
+          <button>
+            <Copy onclick="myFunction()" color={isDark ? "#D1D5DB" : "#4B5563"} />
+          </button>
       </div>
       <div className="flex gap-2 justify-center">
-        <Call color={isDark ? "#D1D5DB" : "#4B5563"} />
+        <button>
+          <Call color={isDark ? "#D1D5DB" : "#4B5563"} />
+        </button>
+
         <h1 className="text-gray-900 dark:text-[#F9FAFB] text-4xl font-semibold">
           +976 88112233
         </h1>
-        <Copy color={isDark ? "#D1D5DB" : "#4B5563"} />
+        <button>
+          <Copy color={isDark ? "#D1D5DB" : "#4B5563"} />
+        </button>
       </div>
 
       <p className="text-center text-gray-600 dark:text-[#D1D5DB] text-base">
