@@ -1,6 +1,6 @@
 export const Gromit = ({ toggleDarkMode }) => {
   return (
-    <div className="grid grid-cols-4 gap-y-4 ">
+    <div className="grid md:grid-cols-4 max-md:grid-cols-2 gap-y-4 ">
       <button className=" text-gray-600 dark:text-[#D1D5DB] bg-gray-200 dark:bg-[#374151] w-40  rounded-xl">
         React
       </button>

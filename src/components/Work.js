@@ -3,7 +3,7 @@ import { Share } from "./Share";
 
 export const Work = ({ toggleDarkMode, isDark }) => {
   return (
-    <div className="w-full h-full bg-white dark:bg-[#030712]">
+    <div className="md:w-full md:h-full bg-white dark:bg-[#030712]">
       <div className="text-center pt-40 ">
         <button className=" text-gray-600 dark:text-[#D1D5DB] bg-gray-200 dark:bg-[#374151] px-8 py-1 rounded-xl">
           Work
@@ -12,7 +12,7 @@ export const Work = ({ toggleDarkMode, isDark }) => {
       <div className="mt-8 text-center text-gray-600  dark:text-[#D1D5DB] text-base">
         <p>Some of the noteworthy projects I have built:</p>
       </div>
-      <div className="py-0 md:px-96 flex  md:justify-center mt-12  ">
+      <div className="py-0 md:px-96 md:flex max-md:grid  md:justify-center mt-12  ">
         <div className="bg-gray-50 dark:bg-[#374151] flex-1 rounded-l-lg shadow-xl">
           <img
             src="/unelgee.jpg
@@ -37,7 +37,7 @@ export const Work = ({ toggleDarkMode, isDark }) => {
           <Share color={isDark ? "#D1D5DB" : "#4B5563"} />
         </div>
       </div>
-      <div className="py-0 px-96 flex  justify-center mt-12  ">
+      <div className="py-0 md:px-96 md:flex  md:justify-center mt-12  ">
         <div className="flex-1 rounded-r-lg shadow-xl pl-8  bg-white dark:bg-[#1F2937]">
           <h1 className="my-12 text-gray-900 dark:text-[#F9FAFB] font-semibold text-xl">
             MentorHub
@@ -61,7 +61,7 @@ export const Work = ({ toggleDarkMode, isDark }) => {
           />
         </div>
       </div>
-      <div className="py-0 px-96 flex  justify-center mt-12  ">
+      <div className="py-0 md:px-96 md:flex  md:justify-center mt-12  ">
         <div className="bg-gray-50 dark:bg-[#374151] flex-1 rounded-l-lg shadow-xl ">
           <img
             src="/toim.jpg "

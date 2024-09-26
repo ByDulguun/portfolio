@@ -5,10 +5,10 @@ export const Header = ({ toggleDarkMode, isDark }) => {
   return (
     <div className=" sm:flex justify-around w-screen h-full py-4 bg-[#fff] dark:bg-gray-900">
       <div className=" flex font-normal text-3xl text-gray-900 dark:text-gray-300 2xl justify-between  mx-4  ">
-        <div className="  ">
+        <div>
           <h1>Tom</h1>
         </div>
-        <div className="sm:hidden w-fit h-fit">
+        <div className="sm:hidden w-fit h-fit bg-transparent">
           <img src="/icon.jpg" height={40} width={40} />
         </div>
       </div>

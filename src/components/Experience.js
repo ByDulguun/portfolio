@@ -37,7 +37,7 @@ export const Experience = ({ toggleDarkMode }) => {
                 </li>
               </div>
             </div>
-            <div className="text-gray-700 dark:text-[#F9FAFB]">
+            <div className="text-gray-700 dark:text-[#F9FAFB] max-md:px-8">
               <p>Nov 2021 - Present</p>
             </div>
           </div>
@@ -65,7 +65,7 @@ export const Experience = ({ toggleDarkMode }) => {
                 </li>
               </div>
             </div>
-            <div className="text-gray-700 dark:text-[#F9FAFB]">
+            <div className="text-gray-700 dark:text-[#F9FAFB] max-md:px-8">
               <p>Nov 2021 - Present</p>
             </div>
           </div>
@@ -93,7 +93,7 @@ export const Experience = ({ toggleDarkMode }) => {
                 </li>
               </div>
             </div>
-            <div className="text-gray-700 dark:text-[#F9FAFB]">
+            <div className="text-gray-700 dark:text-[#F9FAFB] max-md:px-8">
               <p>Nov 2021 - Present</p>
             </div>
           </div>
