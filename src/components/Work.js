@@ -37,7 +37,7 @@ export const Work = ({ toggleDarkMode, isDark }) => {
           <Share color={isDark ? "#D1D5DB" : "#4B5563"} />
         </div>
       </div>
-      <div className="py-0 md:px-96 md:flex  md:justify-center mt-12  ">
+      <div className="py-0 md:px-96 md:flex  md:justify-center mt-12 w-fit  ">
         <div className="flex-1 rounded-r-lg shadow-xl pl-8  bg-white dark:bg-[#1F2937]">
           <h1 className="my-12 text-gray-900 dark:text-[#F9FAFB] font-semibold text-xl">
             MentorHub

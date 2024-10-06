@@ -1,6 +1,6 @@
 export const Gromit = ({ toggleDarkMode }) => {
   return (
-    <div className="grid md:grid-cols-4 max-md:grid-cols-2 gap-y-4 ">
+    <div className="grid md:grid-cols-2 max-md:grid-cols-2 gap-y-4 ">
       <button className=" text-gray-600 dark:text-[#D1D5DB] bg-gray-200 dark:bg-[#374151] w-40  rounded-xl">
         React
       </button>
@@ -22,7 +22,7 @@ export const Gromit = ({ toggleDarkMode }) => {
       <button className=" text-gray-600 dark:text-[#D1D5DB] bg-gray-200 dark:bg-[#374151] w-40 px-2 py-2 rounded-xl">
         Figma
       </button>
-      <button className=" text-gray-600 dark:text-[#D1D5DB] bg-gray-200 dark:bg-[#374151] w-28 px-2 py-2 rounded-xl">
+      <button className=" text-gray-600 dark:text-[#D1D5DB] bg-gray-200 dark:bg-[#374151] w-40 px-2 py-2 rounded-xl">
         Cypress
       </button>
       <button className=" text-gray-600 dark:text-[#D1D5DB] bg-gray-200 dark:bg-[#374151] w-40 px-2 py-2 rounded-xl">
